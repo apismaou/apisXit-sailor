@@ -28,7 +28,7 @@ function library:Window(title, size, color)
     gui.Parent = player:WaitForChild("PlayerGui")
     
     local main = Instance.new("Frame")
-    main.Size = size or UDim2.new(0, 450, 0, 550)
+    main.Size = size or UDim2.new(0, 200, 0, 320)
     main.Position = UDim2.new(0.5, -225, 0.5, -275)
     main.BackgroundColor3 = Color3.fromRGB(15, 15, 25)
     main.BackgroundTransparency = 0.15
